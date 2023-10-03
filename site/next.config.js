@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'Arc Kasm',
+    description: 'Arc custom store for Kasm workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://emmdee90.github.io/kbuilds/',
+    contactUrl: 'https://github.com/emmdee90/kbuilds/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
