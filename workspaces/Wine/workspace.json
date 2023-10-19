@@ -2,7 +2,7 @@
   "description": "Wine Workspace",
   "docker_registry": "localhost:5000/",
   "image_src": "wine.png",
-  "name": "wine:latest",
+  "name": "localhost:5000/wine:latest",
   "run_config": {
     "hostname": "kasm"
   },
