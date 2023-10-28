@@ -2,7 +2,7 @@
   "description": "5ers Metatrader",
   "docker_registry": "localhost:5000/",
   "image_src": "icon.png",
-  "name": "localhost:5000/5ers-Metatrader:latest",
+  "name": "localhost:5000/5ers-metatrader:latest",
   "run_config": {
     "hostname": "kasm"
   },
