@@ -1,7 +1,7 @@
 {
-  "description": "Wine Workspace",
+  "description": "Scrivener",
   "docker_registry": "localhost:5000/",
-  "image_src": "icon.png",
+  "image_src": "scrivener.png",
   "name": "localhost:5000/scrivener:latest",
   "run_config": {
     "hostname": "kasm"
