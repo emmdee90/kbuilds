@@ -2,7 +2,7 @@
   "description": "This is a test",
   "docker_registry": "localhost:5000/",
   "image_src": "test.png",
-  "name": "test:development",
+  "name": "localhost:5000/test:development",
   "run_config": {
     "hostname": "kasm"
   },
