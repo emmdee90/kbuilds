@@ -1,8 +1,8 @@
 {
-  "description": "Wine Workspace",
+  "description": "Zenv",
   "docker_registry": "localhost:5000/",
-  "image_src": "wine.png",
-  "name": "localhost:5000/wine:latest",
+  "image_src": "Zenv.png",
+  "name": "localhost:5000/zenv:latest",
   "run_config": {
     "hostname": "kasm"
   },
@@ -15,10 +15,9 @@
     }
   },
   "categories": [
-    "Desktop",
-    "Development"
+    "Desktop"
   ],
-  "friendly_name": "Wine",
+  "friendly_name": "Zenv",
   "architecture": [
     "amd64",
     "arm64"
