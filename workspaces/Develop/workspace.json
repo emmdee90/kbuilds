@@ -1,8 +1,8 @@
 {
-  "description": "Zenv",
+  "description": "Development Platform",
   "docker_registry": "localhost:5000/",
-  "image_src": "zenv.png",
-  "name": "localhost:5000/zenv:latest",
+  "image_src": "develop.png",
+  "name": "localhost:5000/develop:latest",
   "run_config": {
     "hostname": "kasm"
   },
@@ -15,9 +15,9 @@
     }
   },
   "categories": [
-    "Desktop"
+    "Development"
   ],
-  "friendly_name": "Zenv",
+  "friendly_name": "Develop",
   "architecture": [
     "amd64",
     "arm64"
