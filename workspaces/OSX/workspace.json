@@ -1,0 +1,30 @@
+{
+  "description": "KVM-OSX",
+  "docker_registry": "localhost:5000/",
+  "image_src": "osx.png",
+  "name": "localhost:5000/kasm_osx:latest",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Emulation"
+  ],
+  "friendly_name": "OSX",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 2170
+}
